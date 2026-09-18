@@ -3,28 +3,80 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <meta name="theme-color" content="#111827" />
+  <meta name="theme-color" content="#07111f" />
+  <meta name="description" content="FOX TREINO — o treino pessoal de Diego Fox: cargas, séries, evolução, descanso e histórico." />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="Fox Treino" />
-  <title>Fox Treino</title>
-  <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" href="icon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="icon.svg" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="apple-mobile-web-app-title" content="FOX TREINO" />
+
+  <link rel="canonical" href="https://foxnove.github.io/fox-treino/" />
+
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="FOX TREINO" />
+  <meta property="og:title" content="FOX TREINO — Diego Fox" />
+  <meta property="og:description" content="Meu treino 5x por semana: cargas, séries, evolução e descanso." />
+  <meta property="og:url" content="https://foxnove.github.io/fox-treino/" />
+  <meta property="og:image" content="https://foxnove.github.io/fox-treino/share.jpg?v=3" />
+  <meta property="og:image:secure_url" content="https://foxnove.github.io/fox-treino/share.jpg?v=3" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1000" />
+  <meta property="og:image:height" content="525" />
+  <meta property="og:image:alt" content="Diego Fox treinando na academia" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="FOX TREINO — Diego Fox" />
+  <meta name="twitter:description" content="Meu treino 5x por semana: cargas, séries, evolução e descanso." />
+  <meta name="twitter:image" content="https://foxnove.github.io/fox-treino/share.jpg?v=3" />
+
+  <title>FOX TREINO — Diego Fox</title>
+  <link rel="manifest" href="manifest.webmanifest?v=3" />
+  <link rel="icon" href="profile.jpg?v=3" type="image/jpeg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="icon-180.png?v=3" />
+  <link rel="stylesheet" href="styles.css?v=3" />
 </head>
 <body>
   <header class="app-header">
-    <div>
-      <span class="eyebrow">SKY FIT • RÓTULA DO ABACAXI</span>
-      <h1>FOX TREINO</h1>
+    <div class="brand-block">
+      <div class="bahia-mark" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+      <div>
+        <span class="eyebrow">SKY FIT • RÓTULA DO ABACAXI</span>
+        <h1><span>FOX</span> TREINO</h1>
+      </div>
     </div>
-    <button id="themeBtn" class="icon-btn" aria-label="Alternar tema">◐</button>
+
+    <div class="header-actions">
+      <button id="themeBtn" class="icon-btn" aria-label="Alternar tema" title="Alternar tema">◐</button>
+      <div class="user-chip" aria-label="Perfil de Diego Fox">
+        <img src="profile.jpg?v=3" alt="Diego Fox" />
+        <div class="user-chip-copy">
+          <strong>Diego Fox</strong>
+          <span><i></i> Meu treino</span>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main class="app-shell">
     <section id="viewToday" class="view active">
-      <div class="hero-card">
+      <article class="profile-hero">
+        <img class="profile-hero-photo" src="share.jpg?v=3" alt="Diego Fox na academia" fetchpriority="high" />
+        <div class="profile-hero-shade"></div>
+        <div class="profile-hero-stripes" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="profile-hero-content">
+          <img class="profile-avatar" src="profile.jpg?v=3" alt="" />
+          <div>
+            <span class="profile-kicker">MEU FOX TREINO</span>
+            <h2>Diego Fox</h2>
+            <p>Sky Fit • Rótula do Abacaxi</p>
+          </div>
+          <span class="profile-badge">5X / SEMANA</span>
+        </div>
+      </article>
+
+      <div class="hero-card workout-summary">
         <div>
           <p id="todayLabel" class="muted">Treino de hoje</p>
           <h2 id="workoutTitle">Carregando…</h2>
@@ -70,7 +122,7 @@
     </section>
 
     <section id="viewHistory" class="view">
-      <div class="section-head">
+      <div class="section-head section-head-row">
         <div><span class="eyebrow">EVOLUÇÃO</span><h2>Histórico</h2></div>
         <button id="exportBtn" class="ghost-btn">Exportar</button>
       </div>
@@ -108,6 +160,6 @@
   </nav>
 
   <div id="toast" class="toast" role="status"></div>
-  <script src="app.js"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>
