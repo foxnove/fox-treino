@@ -1,6 +1,6 @@
 # FOX TREINO
 
-PWA para acompanhar o treino 5x/semana na academia.
+PWA pessoal de **Diego Fox** para acompanhar o treino 5x por semana.
 
 ## Recursos
 
@@ -11,14 +11,15 @@ PWA para acompanhar o treino 5x/semana na academia.
 - Histórico de treinos
 - Peso corporal e observações
 - Backup/restore em JSON
-- Tema claro/escuro
+- Tema escuro e claro
+- Identidade visual azul, vermelho e branco
+- Perfil pessoal com foto
+- Preview personalizado ao compartilhar no WhatsApp e redes sociais
 - Uso offline via Service Worker
-- Instalável no celular
+- Instalável no celular com ícone próprio
 
 ## GitHub Pages
 
-O projeto publica a raiz da branch `main` via GitHub Actions.
+Publicado pela raiz da branch `main`.
 
-Endereço esperado:
-
-`https://foxnove.github.io/fox-treino/`
+https://foxnove.github.io/fox-treino/
