@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#111827"/>
+  <path d="M100 224h52v64h-52v-64Zm260 0h52v64h-52v-64ZM152 244h208v24H152v-24Zm28-56h40v136h-40V188Zm112 0h40v136h-40V188Z" fill="#f59e0b"/>
+  <text x="256" y="410" text-anchor="middle" font-family="Arial,sans-serif" font-size="76" font-weight="900" fill="#fff">FOX</text>
+</svg>
